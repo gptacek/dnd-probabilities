@@ -11,4 +11,5 @@ current methods:
   
   
   helpers:
-    poss_combinations(dice,faces,number)
+     
+     poss_combinations(dice,faces,number)
