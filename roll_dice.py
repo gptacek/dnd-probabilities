@@ -41,6 +41,9 @@ def affect_d20(string, meet_val):
     num_die = int(string[0])
     die_val = int(string[2:])
     
+    if not(string[1:2] == 'd') or die_val > 12:
+        print("Sorry! That's an illegal die")
+
     start_prob = (20-(meet_val-1))/20
     
     max_change = num_die*die_val
