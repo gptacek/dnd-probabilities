@@ -1,5 +1,8 @@
 "# dnd-probabilities" 
 
+INCOMPLETE
+
+
 for finding probabilities when rolling dice (mostly in dnd)
 
 current methods:
